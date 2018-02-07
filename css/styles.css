@@ -1,0 +1,79 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: grey;
+  font-family: 'Tahoma', sans-serif; }
+
+.container {
+  width: 1015px;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+h1 {
+  font-size: 24pt;
+  text-align: center;
+  font-weight: bold; }
+
+.subContainer-flex {
+  display: flex;
+  padding: 10px;
+  padding-left: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 30px;
+  background-color: white; }
+
+.itemContainer {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: red;
+  background-image: url("../img/DiabolicUI_Button_50x50_BackdropWeapon.tga"); }
+  .itemContainer img {
+    width: 50px;
+    height: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
