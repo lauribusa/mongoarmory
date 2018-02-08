@@ -1,6 +1,6 @@
 body{
-    background-color: grey;
     font-family: 'Tahoma', sans-serif;
+    background: url('../img/background.png');
 }
 
 .container{
@@ -10,14 +10,22 @@ body{
 }
 
 h1{
-    font-size: 24pt;
+    font-size: 100px;
     text-align: center;
     font-weight: bold;
+    color:grey;
+    font-family: "Cinzel", serif
 }
 
 .subContainer-flex{
+    background-image: url('../img/backdrop.png');
+    border: 3px solid grey;
+    border-top: 3px solid white;
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
     display: flex;
     padding: 10px;
+    padding-top: 15px;
     padding-left: 15px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,7 +42,33 @@ h1{
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: red;
-    background-image: url('../img/DiabolicUI_Button_50x50_BackdropWeapon.tga');
+    margin-bottom: 5px;  
+}
+
+.commands{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.button{
+    position: relative;
+    padding: 30px 80px;
+    display: inline-block;
+    color:white;
+
+    text-align: left;
+     span{
+
+
+     }
+    background: url('../img/DiabolicUI_UIButton_193x55_Normal.png') center no-repeat;
+}
+
+.button:hover{
+    
+    background: url('../img/DiabolicUI_UIButton_193x55_Highlight.png') center no-repeat;
+}
+
+.button:active{
+    background: url('../img/DiabolicUI_UIButton_193x55_Pushed.png') center no-repeat;
 }
